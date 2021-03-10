@@ -96,10 +96,7 @@ public class SpringController {
 		ModelAndView mv = new ModelAndView();
 		System.out.println(user.getName());
 		System.out.println(user.getContact());
-		System.out.println(user.getPassword());
-		System.out.println(user.getAddress());
-		System.out.println(user.getUsername());
-		System.out.println("Sneha");
+	
 	boolean result = service.adduser(user);
 		if(result) {
 			List<Login>	userList = service.getUser();
