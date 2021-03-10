@@ -99,7 +99,7 @@ public class SpringController {
 		System.out.println(user.getPassword());
 		System.out.println(user.getAddress());
 		System.out.println(user.getUsername());
-		
+		System.out.println("Sneha");
 	boolean result = service.adduser(user);
 		if(result) {
 			List<Login>	userList = service.getUser();
