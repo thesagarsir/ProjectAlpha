@@ -97,6 +97,7 @@ public class SpringController {
 		System.out.println(user.getName());
 		System.out.println(user.getContact());
 		System.out.println("Hello Git");
+		System.out.println("2nd Update");
 	
 	boolean result = service.adduser(user);
 		if(result) {
