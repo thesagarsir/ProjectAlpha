@@ -112,4 +112,11 @@ public class SpringController {
 		
 		return mv;
 	}
+	
+	@RequestMapping("/adduser")
+	public String addUser() {
+		return "User ADDED SuccessFully";
+	}
+	
+	
 }
