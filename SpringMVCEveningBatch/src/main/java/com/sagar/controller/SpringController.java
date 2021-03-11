@@ -96,6 +96,7 @@ public class SpringController {
 		ModelAndView mv = new ModelAndView();
 		System.out.println(user.getName());
 		System.out.println(user.getContact());
+		System.out.println("Hello Git");
 	
 	boolean result = service.adduser(user);
 		if(result) {
